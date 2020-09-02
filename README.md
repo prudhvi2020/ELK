@@ -16,12 +16,6 @@ yum install elasticsearch-1.7.2.noarch.rpm -y
 rm -f elasticsearch-1.7.2.noarch.rpm
 
 cd /usr/share/elasticsearch/
-# installation of plugins:
-# 1.elasticsearch-head
-# 2.bigdesk
-# 3.elasticsearch-cloud-aws
-# 4.elasticsearch-kopf/1.5.7
-
 ./bin/plugin -install mobz/elasticsearch-head
 
 ./bin/plugin -install lukas-vlcek/bigdesk
