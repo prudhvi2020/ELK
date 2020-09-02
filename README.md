@@ -28,7 +28,7 @@ cd /etc/elasticsearch
 
 nano elasticsearch.yml
 
-Config
+# Config
 cluster.name: cluster-1
 
 cloud.aws.access_key: ACCESS_KEY_HERE
@@ -64,7 +64,7 @@ rm -f logstash-1.5.4-1.noarch.rpm
 
 nano /etc/logstash/conf.d/logstash.conf
 
-Config
+# Config
 input { file { path => "/tmp/logstash.txt" } } output { elasticsearch { host => "ELASTICSEARCH_URL_HERE" protocol => "http" } }
 
 Commands
@@ -88,7 +88,7 @@ cd kibana-4.1.2-linux-x64
 
 nano config/kibana.yml
 
-Config
+# Config
 elasticsearch_url: "ELASTICSEARCH_URL_HERE"
 
 Commands
