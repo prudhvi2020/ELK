@@ -1,6 +1,6 @@
 # ELK
 # presequties:
-
+# INSTALLING ELASTIC_SEARCH
 Elasticsearch 1.7.2
 Commands
 sudo su
@@ -47,7 +47,7 @@ http.cors.allow-origin: "*"
 
 Commands
 service elasticsearch start
-
+# INSTALLING LOG-STASH
 Logstash 1.5.4-1
 Commands
 sudo su
@@ -70,6 +70,7 @@ input { file { path => "/tmp/logstash.txt" } } output { elasticsearch { host => 
 Commands
 service logstash start
 Kibana 4.1.2
+# installing KIBANA
 Commands
 sudo su
 
