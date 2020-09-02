@@ -1,4 +1,7 @@
 # ELK
+- Installation of Elastic-Search
+- Installation of Logstash
+- Installation of Kibana
 # presequties:
 - t2.medium (Variable ECUs, 2 vCPUs, 2.3 GHz, Intel Broadwell E5-2686v4, 4 GiB memory, EBS only)
 - java-8 (For Installation Of Plugins)
